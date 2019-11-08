@@ -85,7 +85,43 @@
 
 <script>
 	export default{
-		name:'City'
+		name:'City',
+		// mounted(){
+		// 	this.axios.get('/api/cityList').then((res)=>{
+		// 		var msg = res.data.msg;
+		// 		if(msg == 'ok'){
+		// 			var cities = res.data.data.cities;
+		// 			this.formatCityList(cities)
+		// 		}
+		// 	})
+		// },
+		// methods:{
+		// 	formatCityList(){
+		// 		var cityList= [];
+		// 		var hotList = [];
+		// 		for(var i=0;i<cities.length;i++){
+		// 			var firstLetter = cities[i].py.substring(0,1).toUpperCase();
+		// 			if(toCom(firstLetter)){
+		// 				cityList.push({index:firstLetter,list;[{nm:cities[i].nm,id:cities[i].id}]});
+		// 			}else{
+		// 				for(var j=0;j<cityList.length;j++){
+		// 					if(cityList[j].index === firstLetter){
+		// 						cityList[j].list.push({nm:cities[i].nm})
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 		function toCom(firstLetter){
+		// 			for(var i=0;i<cityList.length;i++){
+		// 				if(cityList[i].index === firstLetter){
+		// 					return false;
+		// 				}
+		// 			}
+		// 			return true;
+		// 		}
+		// 	}
+		// }
+
 	}
 </script>
 
